@@ -1,0 +1,36 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+
+.navMenu {
+  display: flex;
+}
+.navMenu li {
+  padding-right: 2rem;
+  list-style: none;
+}
+.navMenu li a {
+  font-size: 1.2rem;
+  font-weight: 0.5rem;
+}
+@media screen and (max-width: 1040px) {
+  .navMenu {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    /* background-color: blueviolet; */
+    color: aliceblue;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -3;
+  }
+  /* .navMenu li a {
+    font-size: ;
+  } */
+}
